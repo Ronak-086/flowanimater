@@ -1,0 +1,110 @@
+/* Reset & Base Styles */
+/* #gradient{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: orange;
+  border-radius: 50%;
+  filter: blur(20px);
+  box-shadow: 0 0 60px 30px orange;
+  opacity: 0.6;
+  pointer-events: none;
+} */
+/* #gradient2{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: red;
+  border-radius: 50%;
+  filter: blur(20px);
+  box-shadow: 0 0 60px 30px red;
+  opacity: 0.6;
+  pointer-events: none;
+} */
+.main {
+  background-color: #212122;
+}
+body {
+  background-color: #212122;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  resize: vertical;
+  color: #1e293b;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1d4ed8;
+}
+
+.error {
+  color: #f87171;
+  margin-top: 10px;
+}
+
+.video-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+video {
+  width: 45%;
+  border: 1px solid #334155;
+  border-radius: 8px;
+}
+
+/* Utility */
+.hidden {
+  display: none;
+}
